@@ -1,14 +1,16 @@
 # Jogo WinForms - Meninas Super Poderosas
 
-Projeto simples em C# Windows Forms com:
-- Tela inicial com identidade rosa claro
-- Tela de seleção de personagens
-- Dois personagens: Blossom e Bubbles (gerados em PNG automaticamente)
+Projeto Windows Forms em C# com tela inicial, seleção de personagens, movimento e disparos.
 
-## Como usar:
+## Controles
 
-1. Clone o repositório
-2. Abra no Visual Studio
-3. Execute o projeto
+- Setas: movimentar o personagem
+- Barra de espaço: disparar
 
-Os PNGs são gerados automaticamente na pasta do executável.
+## Como executar
+
+1. Abra `jogo.csproj` no Visual Studio.
+2. Execute com `F5`.
+3. Selecione Blossom ou Bubbles.
+
+Os personagens são gerados automaticamente na pasta do executável. A imagem opcional do projétil deve ficar em `assets/bullet.png`; caso não exista, o projétil aparece como um círculo quadrado azul.
